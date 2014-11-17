@@ -18,5 +18,8 @@
   "homepage": "https://github.com/briandipalma/esformatter-eol-last",
   "devDependencies": {
     "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "string.prototype.endswith": "^0.2.0"
   }
 }

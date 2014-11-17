@@ -13,4 +13,15 @@ describe('EOL-last formatter', function() {
 		//Then
 		assert(formatterOutput, expectedOutput);
 	});
+
+	it('does not add newline at end of input with a newline', function() {
+		//Given.
+		var input = 'Hi!\n';
+
+		//When
+		var formatterOutput = eolFormatter.stringAfter(input);
+
+		//Then
+		assert(formatterOutput, input);
+	});
 })
