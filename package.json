@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/briandipalma/esformatter-eol-last/issues"
   },
-  "homepage": "https://github.com/briandipalma/esformatter-eol-last"
+  "homepage": "https://github.com/briandipalma/esformatter-eol-last",
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
 }
