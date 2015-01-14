@@ -2,3 +2,7 @@
 
 Adds a newline to the end of esformatter output.
 Will not add newline is the output ends in a newline already.
+
+## Install
+
+Install with `npm i esformatter-eol-last`
