@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint .",
+    "build": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/briandipalma/esformatter-eol-last",
   "devDependencies": {
+    "eslint": "^0.13.0",
     "mocha": "^2.0.1"
   },
   "dependencies": {
