@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/briandipalma/esformatter-eol-last",
   "devDependencies": {
-    "eslint": "^0.13.0",
+    "eslint": "^6.6.0",
     "mocha": "^2.0.1"
   },
   "dependencies": {}
